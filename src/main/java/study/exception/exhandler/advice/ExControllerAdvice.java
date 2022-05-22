@@ -10,7 +10,7 @@ import study.exception.exception.UserException;
 import study.exception.exhandler.ErrorResult;
 
 @Slf4j
-@RestControllerAdvice
+@RestControllerAdvice("study.exception.api")
 public class ExControllerAdvice {
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
